@@ -99,18 +99,21 @@ h2 span {
     display: inline-block;
     background: var(--dourado);
     color: #111;
-    padding: 16px 27px;
-    border-radius: 5px;
+    padding: 17px 30px;
+    border-radius: 8px;
     font-weight: bold;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.25);
+    cursor: pointer;
 }
 
 .botao:hover {
-    background: #f1ca60;
+    background: #fff;
+    color: #111;
     transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(212, 175, 55, 0.4);
 }
-
 .hero-image {
     width: 48%;
 }
